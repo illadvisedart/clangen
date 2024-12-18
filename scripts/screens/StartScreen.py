@@ -340,7 +340,7 @@ class StartScreen(Screens):
         self.warning_label_background = UIImageButton(scale(pygame.Rect((100, 1244), (1400, 55))), "", object_id="blank_button", manager=MANAGER)
         self.warning_label_background.disable()
         self.warning_label = pygame_gui.elements.UITextBox(
-            "This is a modded version of Clangen!",
+            "This is a modded version of Clangen! yahoo!!",
             scale(pygame.Rect((100, 1244), (1400, 60))),
             object_id="#default_dark",
             manager=MANAGER,
