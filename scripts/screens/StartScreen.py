@@ -340,7 +340,7 @@ class StartScreen(Screens):
         self.warning_label_background = UIImageButton(scale(pygame.Rect((100, 1244), (1400, 55))), "", object_id="blank_button", manager=MANAGER)
         self.warning_label_background.disable()
         self.warning_label = pygame_gui.elements.UITextBox(
-            "Warning: this game includes descriptions of gore, violence, murder, kit death, and animal abuse",
+            "This is a modded ClanGen game!",
             scale(pygame.Rect((100, 1244), (1400, 60))),
             object_id="#default_dark",
             manager=MANAGER,
